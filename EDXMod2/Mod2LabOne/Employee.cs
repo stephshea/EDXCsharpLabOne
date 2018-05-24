@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mod2LabOne
 {
-    public class Employee
+    abstract class Employee
     {
         //creates integer variable called 'employeeCount' and assigns value to 1
         private static int employeeCount = 1;
@@ -84,9 +84,9 @@ namespace Mod2LabOne
 
         //this method returns ther employee's ID and NAme and confirms that the employee is in the system
 
-        public virtual String employeeStatus()
-        {
-            return toString() + " is in the company's system";
-        }
+        public abstract String employeeStatus()
+        // {
+        //     return toString() + " is in the company's system";
+        // }
     }
 }

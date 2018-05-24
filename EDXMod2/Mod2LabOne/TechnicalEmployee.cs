@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace Mod2LabOne
 {
-    public class TechnicalEmployee: Employee
+    class TechnicalEmployee: Employee
     {
+         //create integer variable called "successfulCheckins" and assigns value to 5
+        public int successfulCheckins = 5;
+        
         //calls upon base-class (Employee Clas) constructor from within derived class(TechnicalEmployee Class)
         //Sets baseSalary to 75000 for all TechnicalEmployee objects
-
         public TechnicalEmployee(String name) : base(name, 75000)
         {
-            //create integer variable called "successfulCheckins" and assigns value to 5
-            public int successfulCheckins = 5;
+           
         }
 
         //this method returns the toString() method - which is the employee's ID number and name - and prints the number of successful check ins the employee has had

@@ -88,8 +88,5 @@ namespace Mod2LabOne
         {
             return toString() + " is in the company's system";
         }
-
-        }
-
     }
 }

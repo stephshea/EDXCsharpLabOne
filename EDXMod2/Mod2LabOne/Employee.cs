@@ -85,8 +85,6 @@ namespace Mod2LabOne
         //this method returns ther employee's ID and NAme and confirms that the employee is in the system
 
         public abstract String employeeStatus()
-        // {
-        //     return toString() + " is in the company's system";
-        // }
+        
     }
 }
